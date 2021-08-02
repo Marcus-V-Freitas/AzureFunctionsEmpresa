@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AzureFunctionsEmpresa</name>
+    </assembly>
+    <members>
+        <member name="M:AzureFunctionsEmpresa.Functions.RestaurantesFunctions.TodosRestaurantes(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Retorna todos os restaurantes
+            </summary>
+            <returns> Restaurantes </returns>
+        </member>
+        <member name="M:AzureFunctionsEmpresa.Functions.RestaurantesFunctions.RestaurantePorId(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger,System.Int32)">
+            <summary>
+            Retorna o resturante pelo seu id
+            </summary>     
+            <param name="id"> código interno </param>
+            <returns> Restaurante </returns>
+        </member>
+        <member name="M:AzureFunctionsEmpresa.Functions.RestaurantesFunctions.CriarRestaurante(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Cria um resturante
+            </summary>     
+            <returns> true/false </returns>
+        </member>
+        <member name="M:AzureFunctionsEmpresa.Functions.RestaurantesFunctions.AtualizarRestaurante(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Atualiza o Restaurante
+            </summary>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:AzureFunctionsEmpresa.Functions.RestaurantesFunctions.ExcluirRestaurante(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger,System.Int32)">
+            <summary>
+            Exclui o resturante pelo seu id
+            </summary>     
+            <param name="id"> código interno </param>
+            <returns> Restaurante </returns>
+        </member>
+    </members>
+</doc>
